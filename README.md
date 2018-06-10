@@ -19,5 +19,22 @@ Got around this link:
 ```
 from thread : https://answers.unrealengine.com/questions/705076/xlocaleh-not-found-on-linux.html
 
+When running build for CARLA instead of single line suggested before declaring/exporting variable UE4_ROOT, broke this out into two steps:
+```bash
+   export UE4_ROOT=<path to UnrealEngine>/UnrealEngine_4.18
+   
+```
 
+Launching UR4 with CARLA suggested
+```bash
+  $ cd Unreal/CarlaUE4
+  $ ~/UnrealEngine_4.18/Engine/Binaries/Linux/UE4Editor "$PWD/CarlaUE4.uproject"
+```
+  Second launch didn't work but launching UE4 without passing it the CarlaUE4.uproject first
+  
+  ```bash
+      $ ~/UnrealEngine_4.18/Engine/Binaries/Linux/UE4Editor 
+   ```
+   then attempting to open CarlaUE4.uproject once UE4 launches.
+   attempt at launching copy of CarlaUE4.uproject resultded in Segmentation fault
 
