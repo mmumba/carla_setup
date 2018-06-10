@@ -57,7 +57,15 @@ Launching UR4 with CARLA suggested
      ./CarlaUE4.sh -windowed /Game/Maps/Town02 
  ```
  
+ Can quickly connect a client by running above standalone Carla script and launching a client
+ by following through
+ https://carla.readthedocs.io/en/latest/connecting_the_client/
  
+ 
+  
+  
+  Interesting: https://ai.intel.com/reinforcement-learning-coach-carla-qr-dqn/
+  
   
  
     
