@@ -37,4 +37,14 @@ Launching UR4 with CARLA suggested
    ```
    then attempting to open CarlaUE4.uproject once UE4 launches.
    attempt at launching copy of CarlaUE4.uproject resultded in Segmentation fault
-
+   
+  Changing directory to "CarlaUE4 4.18/" and running copy of CarlaUE4.uproject Town01 seems to work. (one of two town layouts as of this writing).
+  
+  ```bash 
+     cd Unreal/CarlaUE4 4.18
+     $ ~/UnrealEngine_4.18/Engine/Binaries/Linux/UE4Editor 
+  ```
+  
+  
+ 
+    
