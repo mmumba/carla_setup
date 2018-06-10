@@ -44,7 +44,20 @@ Launching UR4 with CARLA suggested
      cd Unreal/CarlaUE4 4.18
      $ ~/UnrealEngine_4.18/Engine/Binaries/Linux/UE4Editor 
   ```
-  
+ Can also launch Carla in stand alone mode, download compiled version here:
+ https://github.com/carla-simulator/carla/releases/tag/0.8.3
+ 
+ unzip and run script
+ ```bash
+    ./carlaUE4.sh
+ ```
+ 
+ fills whole screen so better to launch as windowed 
+ ```bash
+     ./CarlaUE4.sh -windowed /Game/Maps/Town02 
+ ```
+ 
+ 
   
  
     
